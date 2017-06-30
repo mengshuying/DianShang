@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    style="@style/Layout.Main"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListView
+            style="@style/ListView.Line"
+            android:id="@+id/mainListView"/>
+    <TextView
+        style="@style/TextView.Status"
+        android:id="@+id/statusTextView"/>
+</RelativeLayout>
